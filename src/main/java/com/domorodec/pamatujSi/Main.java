@@ -7,7 +7,7 @@ public class Main {
         System.out.println("**************Vitejte v programu na pamatovani slov************");
         System.out.println("*******************Verze 1.0.***********************************");
         System.out.println("***************************************************************");
-        System.out.println("/n");
+        System.out.println("\n");
 
         rd.readFile();
         System.out.println("Zacnete psat slova, ktera jste si zapamatovali:");
