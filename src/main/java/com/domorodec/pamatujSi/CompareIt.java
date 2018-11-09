@@ -15,16 +15,17 @@ public class CompareIt{
     public static void porovnej(){
         int count = 0;
         String vstupZkl;
-        System.out.println("Probiha porovnavani hodnot....");
+       // System.out.println("Probiha porovnavani hodnot....");
         for(int i=0; i < pole.size();i++) {
-              vstupZkl = scanner2.nextLine();
+            vstupZkl = scanner2.nextLine();
                 if (pole.contains(vstupZkl)) {
                     count++;
                 }
             }
 
-
+        System.out.println("|----------------------------------|");
         System.out.println("Uspesne jste uhodli "+count+" slov.");
+        System.out.println("|----------------------------------|");
         scanner2.close();
     }
 

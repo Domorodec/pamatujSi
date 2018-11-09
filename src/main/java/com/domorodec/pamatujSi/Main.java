@@ -1,7 +1,10 @@
 package com.domorodec.pamatujSi;
+
 public class Main {
 
+
     public static void main(String[] args) {
+
         Read rd = new Read();
         System.out.println("***************************************************************");
         System.out.println("**************Vitejte v programu na pamatovani slov************");
@@ -11,11 +14,13 @@ public class Main {
 
         rd.readFile();
 
-        System.out.println("Pokud jste pripraveni, stisknete enter.");
+        System.out.println("|--------------------------------------|");
+        System.out.println("Pokud jste pripraveni, stisknete ENTER.");
+        System.out.println("|--------------------------------------|");
 
         try
         {
-            System.in.read();
+            int a = System.in.read(new byte[2]);//cist pouze 2 bajty pro \r a \n vyloucit dalsi znak
         }
         catch(Exception e)
         {
@@ -31,14 +36,15 @@ public class Main {
 
 
 
-
         System.out.println("Zacnete psat slova, ktera jste si zapamatovali:");
 
         CompareIt.porovnej();
-        System.out.println("***************************");
+        System.out.println("|--------------------------------------|");
         System.out.println("Puvodni hodnty byly:");
+        System.out.println("|--------------------------------------|");
         CompareIt.tiskPole();
 
+        System.out.println("\n");
         System.out.println("***************************************************************");
         System.out.println("**************Nashledanou priste*******************************");
         System.out.println("*******************Verze 1.0.***********************************");
