@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="pamatujSi:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/pamatujSi_jar</output-path>
-    <root id="archive" name="pamatujSi.jar">
-      <element id="module-output" name="pamatujSi" />
-    </root>
-  </artifact>
-</component>
