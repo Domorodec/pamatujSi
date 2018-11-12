@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3548c2c1-b080-4034-baf2-6f8d76b24e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/pamatujSi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pamatujSi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pamatujSi_jar/pamatujSi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/CompareIt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/CompareIt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java/com/domorodec/pamatujSi/readtest.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="3548c2c1-b080-4034-baf2-6f8d76b24e8e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+            <state relative-caret-position="292">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -178,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541753398302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541753433928" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541667277590</updated>
       <workItem from="1541667279965" duration="10969000" />
-      <workItem from="1541749202618" duration="3952000" />
+      <workItem from="1541749202618" duration="4572000" />
     </task>
     <servers />
   </component>
@@ -263,7 +249,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14921000" />
+    <option name="totallyTimeSpent" value="15541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -278,7 +264,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1600" height="837" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.6366013" />
+      <window_info anchor="bottom" x="0" y="186" width="1600" height="487" id="Run" maximized="true" order="2" type="WINDOWED" weight="0.6366013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        <state relative-caret-position="292">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
