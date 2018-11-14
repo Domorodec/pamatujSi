@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CompareIt{
+    static long stopTime;
    static List<String> pole  = new ArrayList<>();
    public static final Scanner scanner2 = new Scanner(System.in);
 
@@ -22,7 +23,7 @@ public class CompareIt{
                     count++;
                 }
             }
-
+        stopTime = System.currentTimeMillis();
         System.out.println("|----------------------------------|");
         System.out.println("Uspesne jste uhodli "+count+" slov.");
         System.out.println("|----------------------------------|");

@@ -5,6 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Read{
+    static long timeStart;
     String s;
     public static final Scanner scanner = new Scanner(System.in);
 
@@ -41,6 +42,9 @@ public class Read{
                         smycka=false;
                         int slova = scanner.nextInt();
                         if (slova <= text.length) {
+                            System.out.println("Zapamatujte si nasledujici slova:");
+                            System.out.println("---------------------------------");
+                            timeStart = System.currentTimeMillis();
                             for (int i = 0; i < slova; i++) {
                                 int n = random.nextInt(text.length - 1) + 1;
                                 System.out.println(text[n]);

@@ -2,7 +2,8 @@ package com.domorodec.pamatujSi;
 
 public class Main {
 
-
+    CompareIt startT = new CompareIt();
+    Read stopT = new Read();
     public static void main(String[] args) {
 
         Read rd = new Read();
@@ -41,6 +42,7 @@ public class Main {
         CompareIt.porovnej();
         System.out.println("|--------------------------------------|");
         System.out.println("Puvodni hodnty byly:");
+        System.out.println("Doba trvani = " + (-((Read.timeStart - CompareIt.stopTime)/1000))+" sekund/y" );
         System.out.println("|--------------------------------------|");
         CompareIt.tiskPole();
 
