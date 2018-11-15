@@ -17,7 +17,8 @@ public class Read{
                 FileReader(/*"C:\\Users\\PC\\projects\\javaProject1\\src\\com\\domorodec\\read.txt"*/"C:\\Users\\PC\\projects\\pamatujSi\\pamatujSi\\src\\main\\java\\com\\domorodec\\pamatujSi\\read.txt"))){
 
             while((s = br.readLine()) !=  null) {
-                String[] text = s.split("\\s+");
+                //String[] text = s.split("\\s+");
+                String[] text = s.split("[^a-zA-Z0-9]+");
                 //for(String tisk:text);
                 //int delkaPole = tisk.length();
                 Random random = new Random();
@@ -47,10 +48,14 @@ public class Read{
                             timeStart = System.currentTimeMillis();
                             for (int i = 0; i < slova; i++) {
                                 int n = random.nextInt(text.length - 1) + 1;
-                                System.out.println(text[n]);
-                                String item = text[n];
-                                //new CompareIt().ulozPole(item);
-                                CompareIt.ulozPole(item);
+                                    if(!text[n].isEmpty()){
+                                        System.out.println(text[n]);
+                                        String item = text[n];
+                                        //new CompareIt().ulozPole(item);
+                                        CompareIt.ulozPole(item);
+                                    }
+
+
                             }
                            smycka1=false;
 
@@ -58,6 +63,7 @@ public class Read{
                         }else{
                                 System.out.println("Zadali jste prilis velke cislo. Znovu.");
                                 smycka=true;
+                                smycka1=false;
                             }
 
                           //  break;

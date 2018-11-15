@@ -6,10 +6,7 @@ import org.junit.Test;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Random;
 import java.util.Scanner;
-
-import static org.junit.Assert.*;
 
 public class ReadTest {
     String s;
@@ -28,9 +25,13 @@ public class ReadTest {
                         FileReader("C:\\Users\\PC\\projects\\pamatujSi\\pamatujSi\\src\\test\\java\\com\\domorodec\\pamatujSi\\readtest.txt"))) {
 
             while ((s = br.readLine()) != null) {
-                String[] text = s.split("\\s+");
+                String[] text = s.split("[^a-zA-Z0-9]+");
+
                 for (String tisk : text) {
-                    System.out.println(tisk);
+                    if(!tisk.isEmpty()){
+                        System.out.println(tisk);
+                    }
+
                 }
             }
         } catch (
