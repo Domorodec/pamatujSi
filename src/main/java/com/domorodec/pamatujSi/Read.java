@@ -11,14 +11,15 @@ public class Read{
 
     public void readFile() {
 
-
+        String[] text;
 
         try(BufferedReader br = new BufferedReader(new
                 FileReader(/*"C:\\Users\\PC\\projects\\javaProject1\\src\\com\\domorodec\\read.txt"*/"C:\\Users\\PC\\projects\\pamatujSi\\pamatujSi\\src\\main\\java\\com\\domorodec\\pamatujSi\\read.txt"))){
 
             while((s = br.readLine()) !=  null) {
                 //String[] text = s.split("\\s+");
-                String[] text = s.split("[^a-zA-Z0-9]+");
+                text = s.split("[^a-zA-Z0-9-ěščřžýáíéůúň]+");
+
                 //for(String tisk:text);
                 //int delkaPole = tisk.length();
                 Random random = new Random();
