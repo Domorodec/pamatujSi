@@ -25,7 +25,7 @@ public class ReadTest {
                         FileReader("C:\\Users\\PC\\projects\\pamatujSi\\pamatujSi\\src\\test\\java\\com\\domorodec\\pamatujSi\\readtest.txt"))) {
 
             while ((s = br.readLine()) != null) {
-                String[] text = s.split("[^a-zA-Z0-9]+");
+                String[] text = s.split("[^a-zA-Zěščřžýáíéůúň]+");
 
                 for (String tisk : text) {
                     if(!tisk.isEmpty()){

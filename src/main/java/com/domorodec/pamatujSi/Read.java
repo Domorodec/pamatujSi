@@ -18,7 +18,7 @@ public class Read{
 
             while((s = br.readLine()) !=  null) {
                 //String[] text = s.split("\\s+");
-                text = s.split("[^a-zA-Z0-9-ěščřžýáíéůúň]+");
+                text = s.split("[^a-zA-Zěščřžýáíéůúň]+");
 
                 //for(String tisk:text);
                 //int delkaPole = tisk.length();
