@@ -2,8 +2,8 @@ package com.domorodec.pamatujSi;
 
 public class Main {
 
-    CompareIt startT = new CompareIt();
-    Read stopT = new Read();
+    //CompareIt startT = new CompareIt();
+    //Read stopT = new Read();
     public static void main(String[] args) {
 
         Read rd = new Read();

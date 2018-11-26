@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="62d980d4-f540-4184-ad47-2fe5af5cb4a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Read.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pamatujSi-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pamatujSi-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" afterDir="false" />
     </list>
@@ -23,11 +27,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -35,8 +39,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state>
+                  <caret column="1416" lean-forward="true" selection-start-column="1416" selection-end-column="1416" />
                 </state>
               </provider>
             </entry>
@@ -51,28 +55,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+                <state relative-caret-position="1032">
+                  <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -80,12 +66,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+                <state relative-caret-position="386">
+                  <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
@@ -100,11 +86,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" />
       </list>
     </option>
   </component>
@@ -121,6 +107,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,13 +184,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542625575733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543239043582" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -274,13 +260,11 @@
       <workItem from="1542623449391" duration="561000" />
       <workItem from="1542624256871" duration="1334000" />
       <workItem from="1542803314682" duration="593000" />
+      <workItem from="1543234395741" duration="1935000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadTest - 2018.11.15 at 09h 21m 24s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReadTest - 2018.11.15 at 09h 28m 39s.xml">
       <configuration name="ReadTest" configurationId="JUnit" />
     </history-entry>
@@ -308,14 +292,17 @@
     <history-entry file="ReadTest - 2018.11.21 at 13h 34m 31s.xml">
       <configuration name="ReadTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReadTest - 2018.11.26 at 14h 23m 52s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7105000" />
+    <option name="totallyTimeSpent" value="9040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,31 +353,17 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="386">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="867">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -403,8 +376,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="1032">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1416" lean-forward="true" selection-start-column="1416" selection-end-column="1416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>

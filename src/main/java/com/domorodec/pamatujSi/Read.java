@@ -7,11 +7,14 @@ import java.util.Scanner;
 public class Read{
     static long timeStart;
     String s;
+
+    String[] text;
+
     public static final Scanner scanner = new Scanner(System.in);
 
     public void readFile() {
 
-        String[] text;
+        Random random = new Random();
 
         try(BufferedReader br = new BufferedReader(new
                 FileReader(/*"C:\\Users\\PC\\projects\\javaProject1\\src\\com\\domorodec\\read.txt"*/"C:\\Users\\PC\\projects\\pamatujSi\\pamatujSi\\src\\main\\java\\com\\domorodec\\pamatujSi\\read.txt"))){
@@ -22,7 +25,7 @@ public class Read{
 
                 //for(String tisk:text);
                 //int delkaPole = tisk.length();
-                Random random = new Random();
+                //Random random = new Random();
                // boolean extSmycka = true;
 
                 boolean smycka = true;
@@ -72,7 +75,7 @@ public class Read{
 
                         }
                     }while(smycka);
-                }
+               }
 
 
         }catch(IOException vyj){
