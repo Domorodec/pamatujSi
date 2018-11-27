@@ -1,10 +1,26 @@
+/**
+ * <h1>Pamatuj Si</h1>
+ * <br>
+ * Program pro načtení obsahu v souboru read.txt a zobrazení náhodného počtu slovíček
+ * pro zapamatování. Jedná se o procvičení paměti.
+ * Program je intuitivní a není nutné nějaké další vysvětlování
+ *<br>
+ *<br>
+ * @author Martin Fabián
+ * @version 1.0
+ * @since 27.11.2018
+ *
+ *
+ */
+
+
+
+
 package com.domorodec.pamatujSi;
 
 public class Main {
 
-    //CompareIt startT = new CompareIt();
-    //Read stopT = new Read();
-    public static void main(String[] args) {
+       public static void main(String[] args) {
 
         Read rd = new Read();
         System.out.println("***************************************************************");
@@ -13,6 +29,10 @@ public class Main {
         System.out.println("***************************************************************");
         System.out.println("\n");
 
+           /**
+            * Odkaz na metodu readFile() ve třídě Read, která provede načtení
+            * obsahu souboru a také dotaz na zadání počtu slov pro zapamatování
+            */
         rd.readFile();
 
         System.out.println("|--------------------------------------|");

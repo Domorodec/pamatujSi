@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="62d980d4-f540-4184-ad47-2fe5af5cb4a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/domorodec/pamatujSi/Read.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pamatujSi-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pamatujSi-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.domorodec.pamatujSi.ReadTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.domorodec.pamatujSi.ReadTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/domorodec/pamatujSi/ReadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/domorodec/pamatujSi/ReadTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,61 +24,47 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="1416" lean-forward="true" selection-start-column="1416" selection-end-column="1416" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1032">
-                  <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
-                  <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1564">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,9 +74,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java" />
       </list>
     </option>
   </component>
@@ -106,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,12 +170,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543239043582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543327626371" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -261,28 +248,11 @@
       <workItem from="1542624256871" duration="1334000" />
       <workItem from="1542803314682" duration="593000" />
       <workItem from="1543234395741" duration="1935000" />
+      <workItem from="1543323051993" duration="4509000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadTest - 2018.11.15 at 09h 28m 39s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadTest - 2018.11.15 at 09h 29m 38s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadTest - 2018.11.15 at 09h 31m 59s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadTest - 2018.11.15 at 09h 37m 38s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadTest - 2018.11.19 at 11h 46m 45s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadTest - 2018.11.19 at 11h 53m 41s.xml">
-      <configuration name="ReadTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReadTest - 2018.11.21 at 13h 32m 02s.xml">
       <configuration name="ReadTest" configurationId="JUnit" />
     </history-entry>
@@ -295,9 +265,27 @@
     <history-entry file="ReadTest - 2018.11.26 at 14h 23m 52s.xml">
       <configuration name="ReadTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 13h 57m 28s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 14h 01m 31s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 14h 06m 48s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 14h 12m 06s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 14h 14m 56s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReadTest - 2018.11.27 at 14h 35m 53s.xml">
+      <configuration name="ReadTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9040000" />
+    <option name="totallyTimeSpent" value="13549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -355,43 +343,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/ReadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="48">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/domorodec/pamatujSi/readtest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-end-line="15" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/read.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1416" lean-forward="true" selection-start-column="1416" selection-end-column="1416" />
+        <state relative-caret-position="816">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Read.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/CompareIt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domorodec/pamatujSi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="327">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

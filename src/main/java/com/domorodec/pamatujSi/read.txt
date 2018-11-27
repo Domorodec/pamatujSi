@@ -1,1 +1,49 @@
-ode.js je softwarový systém navržený pro psaní vysoce škálovatelných internetových aplikací, především webových serverů. Programy pro Node.js jsou psané v jazyce JavaScript, hojně využívající model událostí a asynchronní I/O operace pro minimalizaci režie procesoru a maximalizaci výkonu.Node.js se skládá z V8 JavaScript engine od společnosti Google a několika standardních knihoven.Node.js vytvořil v roce 2009 Ryan Dahl, jeho následný rozvoj byl sponzorován firmou Joyent, jeho zaměstnavatelem.[1][2]Mezi podobné projekty napsané v jiných programovacích jazycích bychom mohli zařadit Twisted pro jazyk Python, Perl Object Environment pro Perl, libevent pro C a EventMachine pro Ruby. Na rozdíl od většiny JavaScriptových programů, není spouštěn v internetovém prohlížeči, ale na straně serveru. Node.js implementuje některé části ze specifikace CommonJS[3] a je možné ho používat i interaktivně pomocí přiloženého REPL interpretru.Node.js byl oceněn webem InfoWorld (zabývajícím se internetovými technologiemi) jako Nejlepší technologie roku 2012[4]Za určitých okolností Node.js zobrazuje obsah souborů na disku.[5]Příklady2	Komunita3	Související články4	Reference5	Externí odkazyNPM, the Node Package Manager - the predominant package manager for Node.js. As of Node.js version 0.6.3, npm is installed automatically with Node.js.JSAN, the JavaScript Archive Network - a lesser used JavaScript package manager.
+Takhle nějak to bylo:
+jedlo se, zpívalo, pilo,
+princezna zářila štěstím
+v hotelu nad náměstím,
+drak hlídal u dveří sálu,
+na krku pletenou šálu.
+Dědové Vševědi okolo Popelky
+žvatlavě slibují šaty a kabelky,
+každý si odnáší kousíček úsměvu,
+dešťový mraky se chystaly ke zpěvu,
+hosté se sjíždějí k veliké veselce,
+paprsky luceren metají kozelce
+a stíny ořechů orvaných dohola
+pletou se letícím kočárům pod kola,
+Šmudla si přivezl v odřeným wartburgu
+kámošku z dětství, prej nějakou Sněhurku,
+vrátný se zohýbá pro tučné spropitné
+a kdo mu proklouzne, tak toho nechytne,
+kouzelník za dvacku vykouzlí pět bonů
+a vítr na věži opřel se do zvonů:
+Na zdraví nevěsty, na zdraví ženicha!
+Dvě sousta do kapsy a jednou do břicha,
+náhle se za oknem objevil skřítek,
+rozhrnul oponu z máminejch kytek,
+pěkně se usmál a pěkně se podíval
+a pak mi potichu do ucha zazpíval:
+
+Dej mi ruku svou, studenou od okenních skel,
+všichni tě mezi sebe zvou
+a já jsem tu proto, abys šel.
+
+Na plný obrátky letíme světem,
+všechny ty pohádky patřily dětem,
+dneska už se neplatí buchtama za skutky,
+sudičky sesmolí kádrové posudky,
+obložen prošlými dlužními úpisy,
+koukám se z okna a vzpomínám na kdysi,
+jak se mi za oknem objevil skřítek,
+rozhrnul oponu z máminejch kytek,
+pěkně se usmál a pěkně se podíval
+a pak mi potichu do ucha zazpíval:
+
+Dej mi ruku svou, studenou od okenních skel,
+všichni tě mezi sebe zvou
+a já jsem tu proto, abys šel.
+
+Dej mi ruku svou, studenou od okenních skel,
+všichni tě mezi sebe zvou
+a já jsem tu proto, abys šel.

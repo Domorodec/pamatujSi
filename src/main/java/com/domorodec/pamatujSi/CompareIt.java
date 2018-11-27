@@ -4,9 +4,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CompareIt{
+
     static long stopTime;
-   static List<String> pole  = new ArrayList<>();
-   public static final Scanner scanner2 = new Scanner(System.in);
+    static List<String> pole  = new ArrayList<>();
+    public static final Scanner scanner2 = new Scanner(System.in);
 
     public static void ulozPole(String item){
         pole.add(item);
@@ -16,7 +17,7 @@ public class CompareIt{
     public static void porovnej(){
         int count = 0;
         String vstupZkl;
-       // System.out.println("Probiha porovnavani hodnot....");
+
         for(int i=0; i < pole.size();i++) {
             vstupZkl = scanner2.nextLine();
                 if (pole.contains(vstupZkl)) {

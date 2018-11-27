@@ -1,41 +1,5 @@
 Node.js je softwarový systém navržený pro psaní vysoce škálovatelných internetových aplikací, především webových serverů. Programy pro Node.js jsou psané v jazyce JavaScript, hojně využívající model událostí a asynchronní I/O operace pro minimalizaci režie procesoru a maximalizaci výkonu.
 
-Node.js se skládá z V8 JavaScript engine od společnosti Google a několika standardních knihoven.
-
-Node.js vytvořil v roce 2009 Ryan Dahl, jeho následný rozvoj byl sponzorován firmou Joyent, jeho zaměstnavatelem.[1][2]
-
-Mezi podobné projekty napsané v jiných programovacích jazycích bychom mohli zařadit Twisted pro jazyk Python, Perl Object Environment pro Perl, libevent pro C a EventMachine pro Ruby. Na rozdíl od většiny JavaScriptových programů, není spouštěn v internetovém prohlížeči, ale na straně serveru. Node.js implementuje některé části ze specifikace CommonJS[3] a je možné ho používat i interaktivně pomocí přiloženého REPL interpretru.
-
-Node.js byl oceněn webem InfoWorld (zabývajícím se internetovými technologiemi) jako Nejlepší technologie roku 2012[4]
-
-Za určitých okolností Node.js zobrazuje obsah souborů na disku.[5]
-
-
-Obsah
-1	Příklady
-2	Komunita
-3	Související články
-4	Reference
-5	Externí odkazy
-Příklady[editovat | editovat zdroj]
-Toto je kompletní implementace programu hello world v Node.js:
-
-var http = require('http');
-
-http.createServer(function (request, response) {
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.end('Hello World\n');
-}).listen(8000);
-
-console.log('Server running at http://localhost:8000/');
-
-Toto je jednoduchý TCP server, který poslouchá na TCP a UDP portu 7000 a odpovídá na příchozí spojení:
-
-var net = require('net');
-
-net.createServer(function (stream) {
-    stream.write('hello\r\n');
-
     stream.on('end', function () {
         stream.end('goodbye\r\n');
     });
